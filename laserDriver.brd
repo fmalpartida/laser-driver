@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -142,7 +142,7 @@
 <wire x1="32.182" y1="0" x2="32.182" y2="31.867" width="0.3048" layer="20"/>
 <wire x1="32.182" y1="31.867" x2="0" y2="31.867" width="0.3048" layer="20"/>
 <wire x1="0" y1="31.867" x2="0" y2="0" width="0.3048" layer="20"/>
-<dimension x1="0" y1="1.27" x2="32.182" y2="1.27" x3="16.091" y3="-1.27" textsize="0.8128" textratio="12" layer="47"/>
+<dimension x1="0" y1="1.27" x2="32.182" y2="1.27" x3="16.091" y3="-2.667" textsize="0.8128" textratio="12" layer="47"/>
 <text x="23.114" y="5.969" size="1.016" layer="21" font="vector" ratio="12">L+</text>
 <text x="23.114" y="3.429" size="1.016" layer="21" font="vector" ratio="12">L-</text>
 <wire x1="0.508" y1="6.604" x2="6.858" y2="6.604" width="0.3048" layer="21"/>
@@ -210,7 +210,7 @@
 <wire x1="22.606" y1="5.207" x2="22.606" y2="2.667" width="0.3048" layer="21"/>
 <wire x1="22.606" y1="2.667" x2="25.146" y2="2.667" width="0.3048" layer="21"/>
 <wire x1="25.019" y1="5.207" x2="22.606" y2="5.207" width="0.3048" layer="21"/>
-<dimension x1="32.182" y1="0" x2="32.182" y2="31.74" x3="35.56" y3="15.87" textsize="1.016" textratio="12" layer="47"/>
+<dimension x1="32.182" y1="0" x2="32.182" y2="31.74" x3="35.814" y3="15.87" textsize="1.016" textratio="12" layer="47"/>
 <rectangle x1="5.842" y1="27.432" x2="9.144" y2="28.702" layer="21"/>
 <rectangle x1="9.144" y1="27.432" x2="12.192" y2="28.702" layer="21"/>
 <text x="20.32" y="21.336" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">A</text>
