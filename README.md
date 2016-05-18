@@ -72,7 +72,23 @@ The board is configured to do a soft start. Apply a 1.2ms (minimum) pulse to the
 starting the PWM operation.
 
 ## Waveforms and captures
-To do.
+A couple of waveform capture showing the performance of the driver. Measurement setup:
+* Supply voltage: 5V
+* Load current: 1A
+
+To start the driver it needs a 1.1ms pulse on the dimming pin.
+![Soft Start](./documentation/waveforms/softstart.jpg "Soft start pulse")
+
+976Hz PWM duty cycle captures.
+![2% duty cycle](./documentation/waveforms/2_duty.jpg "2% duty cycle dimm")
+![80% duty cycle](./documentation/waveforms/80_duty.jpg "80% duty cycle dimm")
+
+Raising edge, measuring directly the LED voltage on switch on. 10us, raising edge with very little
+overshoot and ringing. Very decent current control and regulation.
+![Raising Edge](./documentation/waveforms/raisingEdge.jpg "Raising edge 10us")
+
+Ripple and noise is around 20mV, I think that about half of it comes from my measurement setup.
+![Ripple](./documentation/waveforms/raisingEdge.jpg "Ripple at 1A")
 
 ## Disclaimer
 The board has only been tested to switch a 3W LED driven at 1A. It should be more than capable of reaching
