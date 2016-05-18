@@ -87,8 +87,9 @@ Raising edge, measuring directly the LED voltage on switch on. 10us, raising edg
 overshoot and ringing. Very decent current control and regulation.
 ![Raising Edge](./documentation/waveforms/raisingEdge.jpg "Raising edge 10us")
 
-Ripple and noise is around 20mV, I think that about half of it comes from my measurement setup.
-![Ripple](./documentation/waveforms/raisingEdge.jpg "Ripple at 1A")
+Ripple and noise is around 20mV, I think that about half of it comes from my measurement setup. 20MHz
+bandwidth limit.
+![Ripple](./documentation/waveforms/ripple20MHz.jpg "Ripple at 1A")
 
 ## Disclaimer
 The board has only been tested to switch a 3W LED driven at 1A. It should be more than capable of reaching
