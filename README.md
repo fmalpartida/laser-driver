@@ -6,7 +6,8 @@ Small compact, constant current source for driving LEDs and lasers up to 4A with
 ## Board specification
 ### Schematic
 [Last version of the schematic](./documentation/laserDriver_schematic.pdf)
-![Schematic](./documentation/laserDriver_schematic.pdf "Constant current driver schematic")
+
+![Schematic](./documentation/laserDriver_schematic.png "Constant current driver schematic")
 
 ### Electrical characteristics
    **V(in) range:**  4V..18V, *observe input caps ratings*
