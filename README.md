@@ -4,20 +4,24 @@ Small compact, constant current source for driving LEDs and lasers up to 4A with
 ![Constant current driver PCB](./documentation/PCB.png "Constant current driver")
 
 ## Board specification
+### Schematic
+[Last version of the schematic](./documentation/laserDriver_schematic.pdf)
+![Schematic](./documentation/laserDriver_schematic.pdf "Constant current driver schematic")
+
 ### Electrical characteristics
    **V(in) range:**  4V..18V, *observe input caps ratings*
 
-   **Max main load current:** 3.3A *observe inductor ratings*
+   **Max. main load current:** 3.3A *observe inductor ratings*
 
-   **Max aux load currents:** 500mA *depends on transistor selection*
+   **Max. aux load currents:** 500mA *depends on transistor selection*
 
-   **Dim threshold voltage:** 1.2V
+   **Dim. threshold voltage:** 1.2V
 
    **Duty cycle range:** 0%..100%
 
    **Soft start duration:** 1.2ms
 
-   **Dim frequency range:** 400Hz..4KHz
+   **Dim. frequency range:** 400Hz..4KHz
 
 ### Mechanical
    **Board dimensions:** 32mm x 32mm
@@ -26,7 +30,7 @@ Small compact, constant current source for driving LEDs and lasers up to 4A with
 
    **Main load connector:** 1 x 2 pin, 2.54mm connector
 
-   **Aux. load dimm connector:** 1 x 3 pin, 2.54mm connector
+   **Aux. load dimm. connector:** 1 x 3 pin, 2.54mm connector
 
    **Aux. load connector:** 3 x 2 pin, 2.54mm connector
 
@@ -46,12 +50,10 @@ Connect power supply to the supply and main load dimming connector observing the
 the current required by your load.
 
 ![Supply](./documentation/V_IN_control.png "Supply and main load dimming")
-<a href="url"><img src="./documentation/V_IN_control.png"></a>
 
 Connect the load (LED or laser driver) observing the polarity of your device.
 
 ![Load out](./documentation/Load.png "Load out")
-<a href="url"><img src="./documentation/Load.png"></a>
 
 If you use auxiliary loads connect them to the auxiliary load connectors and observe their polarity.
 The board has built in freewheel diodes, you should be good to go with any type of load provided you don't
@@ -67,6 +69,9 @@ loads are inactive. A voltage level of 5V (depending on your FET selection) will
 ### Soft start
 The board is configured to do a soft start. Apply a 1.2ms (minimum) pulse to the dimm pin before
 starting the PWM operation.
+
+## Waveforms and captures
+To do.
 
 ## Disclaimer
 The board has only been tested to switch a 3W LED driven at 1A. It should be more than capable of reaching
