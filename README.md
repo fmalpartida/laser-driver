@@ -27,24 +27,29 @@ Small compact, constant current source for driving LEDs and lasers up to 4A with
    **Performance:** Measure performance 83% @ 12V, 1A load. Tested with a 3W LED.
 
 ## Operation and setup
+
 <a href="url"><img src="./documentation/PCB.png" align="left" height="350" ></a>
 
 Connect power supply to the supply and main load dimming connector observing the polarity
 (V+, DIM, V-) within the board's tolerance and ensure that your supply is capable of sourcing
 the current required by your load.
-<a href="url"><img src="./documentation/V_IN_control.png" align="left" height="250" ></a>
+
+<a href="url"><img src="./documentation/V_IN_control.png" align="left" height="200" ></a>
 
 Connect the load (LED or laser driver) observing the polarity of your device.
-<a href="url"><img src="./documentation/Load.png" align="left" height="250" ></a>
+
+<a href="url"><img src="./documentation/Load.png" align="left" height="150" ></a>
 
 If you use auxiliary loads connect them to the auxiliary load connectors and observe their polarity.
 The board has built in freewheel diodes, you should be good to go with any type of load provided you don't
 exceed switching ratings.
-<a href="url"><img src="./documentation/FAN_Connectors.png" align="left" height="250" ></a>
+
+<a href="url"><img src="./documentation/FAN_Connectors.png" align="left" height="100" ></a>
 
 Each auxiliary load channel is controlled with a control signal from the aux load connector. By default
 loads are inactive. A voltage level of 5V (depending on your FET selection) will activate each channel.
-<a href="url"><img src="./documentation/FAN_PWM.png" align="left" height="250" ></a>
+
+<a href="url"><img src="./documentation/FAN_PWM.png" align="left" height="150" ></a>
 
 ### Soft start
 The board is configured to do a soft start. Apply a 1.2ms (minimum) pulse to the dimm pin before
